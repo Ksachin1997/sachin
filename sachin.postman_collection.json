@@ -1,0 +1,399 @@
+{
+	"info": {
+		"_postman_id": "de4a2574-39f9-4df2-8cb9-69510e712326",
+		"name": "sachin",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/book.service/addNewCar",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\t\"vehicleNumber\":\"V-123\",\n\t\t\"rentPerDay\":3000,\n\t\t\"seatingCapacity\":4,\n\t\t\"model\":\"Dzire\"\n\t\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/book.service/addNewCar",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"book.service",
+						"addNewCar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/book.service/addNewCar",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\t\"vehicleNumber\":\"V-123\",\n\t\t\"rentPerDay\":3000,\n\t\t\"seatingCapacity\":4,\n\t\t\"model\":\"Dzire\"\n\t\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/book.service/addNewCar",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"book.service",
+						"addNewCar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/book.service/addNewCar",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\t\"vehicleNumber\":\"V-124\",\n\t\t\"rentPerDay\":4000,\n\t\t\"seatingCapacity\":6,\n\t\t\"model\":\"Xzire\"\n\t\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/book.service/addNewCar",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"book.service",
+						"addNewCar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/book.service/addNewCar",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\t\"vehicleNumber\":\"V-125\",\n\t\t\"rentPerDay\":3500,\n\t\t\"seatingCapacity\":6,\n\t\t\"model\":\"Vzire\"\n\t\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/book.service/addNewCar",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"book.service",
+						"addNewCar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/book.service/addNewCar",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"bookingId\":111,\n\t\"issueDate\":\"03-05-2020\",\n\t\"returnDate\":\"05-05-2020\",\n\t\"customer\":{\n\t\t\"id\":1,\n\t\t\"name\":\"Sachin\",\n\t\t\"mobileNo\":9087654321\n\t},\n\t\"vehicle\":{\n\t\t\"vehicleNumber\":\"V-123\",\n\t\t\"rentPerDay\":3000,\n\t\t\"seatingCapacity\":4,\n\t\t\"model\":\"Dzire\"\n\t}\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/book.service/bookCarNow",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"book.service",
+						"bookCarNow"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/book.service/addNewCar",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"bookingId\":112,\n\t\"issueDate\":\"04-05-2020\",\n\t\"returnDate\":\"06-05-2020\",\n\t\"customer\":{\n\t\t\"id\":2,\n\t\t\"name\":\"Kumar\",\n\t\t\"mobileNo\":9187654321\n\t},\n\t\"vehicle\":{\n\t\t\"vehicleNumber\":\"V-123\",\n\t\t\"rentPerDay\":3000,\n\t\t\"seatingCapacity\":4,\n\t\t\"model\":\"Dzire\"\n\t}\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/book.service/bookCarNow",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"book.service",
+						"bookCarNow"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/book.service/addNewCar",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"bookingId\":112,\n\t\"issueDate\":\"04-05-2020\",\n\t\"returnDate\":\"06-05-2020\",\n\t\"customer\":{\n\t\t\"id\":2,\n\t\t\"name\":\"Kumar\",\n\t\t\"mobileNo\":9187654321\n\t},\n\t\"vehicle\":{\n\t\t\"vehicleNumber\":\"V-128\",\n\t\t\"rentPerDay\":3000,\n\t\t\"seatingCapacity\":4,\n\t\t\"model\":\"Dzire\"\n\t}\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/book.service/bookCarNow",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"book.service",
+						"bookCarNow"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/book.service/addNewCar",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"bookingId\":112,\n\t\"issueDate\":\"04-05-2020\",\n\t\"returnDate\":\"06-05-2020\",\n\t\"customer\":{\n\t\t\"id\":2,\n\t\t\"name\":\"Kumar\",\n\t\t\"mobileNo\":9187654321\n\t},\n\t\"vehicle\":{\n\t\t\"vehicleNumber\":\"V-126\",\n\t\t\"rentPerDay\":2500,\n\t\t\"seatingCapacity\":5,\n\t\t\"model\":\"Fzire\"\n\t}\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/book.service/bookCarNow",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"book.service",
+						"bookCarNow"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/book.service/addNewCar",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"bookingId\":112,\n\t\"issueDate\":\"05-05-2020\",\n\t\"returnDate\":\"07-05-2020\",\n\t\"customer\":{\n\t\t\"id\":2,\n\t\t\"name\":\"Kumar\",\n\t\t\"mobileNo\":9187654321\n\t},\n\t\"vehicle\":{\n\t\t\"vehicleNumber\":\"V-126\",\n\t\t\"rentPerDay\":2500,\n\t\t\"seatingCapacity\":5,\n\t\t\"model\":\"Fzire\"\n\t}\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/book.service/bookCarNow",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"book.service",
+						"bookCarNow"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/book.service/addNewCar",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"bookingId\":112,\n\t\"issueDate\":\"05-05-2020\",\n\t\"returnDate\":\"07-05-2020\",\n\t\"customer\":{\n\t\t\"id\":2,\n\t\t\"name\":\"Kumar\",\n\t\t\"mobileNo\":9187654321\n\t},\n\t\"vehicle\":{\n\t\t\"vehicleNumber\":\"V-126\",\n\t\t\"rentPerDay\":2500,\n\t\t\"seatingCapacity\":5,\n\t\t\"model\":\"Fzire\"\n\t}\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/book.service/getCarByAvailabilityOnDate/06-05-2020",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"book.service",
+						"getCarByAvailabilityOnDate",
+						"06-05-2020"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/book.service/addNewCar",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"bookingId\":112,\n\t\"issueDate\":\"05-05-2020\",\n\t\"returnDate\":\"07-05-2020\",\n\t\"customer\":{\n\t\t\"id\":2,\n\t\t\"name\":\"Kumar\",\n\t\t\"mobileNo\":9187654321\n\t},\n\t\"vehicle\":{\n\t\t\"vehicleNumber\":\"V-126\",\n\t\t\"rentPerDay\":2500,\n\t\t\"seatingCapacity\":5,\n\t\t\"model\":\"Fzire\"\n\t}\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/book.service/getCarBySeatingCapacity/6",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"book.service",
+						"getCarBySeatingCapacity",
+						"6"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/book.service/addNewCar",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"bookingId\":113,\n\t\"issueDate\":\"09-05-2020\",\n\t\"returnDate\":\"10-05-2020\",\n\t\"customer\":{\n\t\t\"id\":3,\n\t\t\"name\":\"Thakur\",\n\t\t\"mobileNo\":9189654321\n\t},\n\t\"vehicle\":{\n\t\t\"vehicleNumber\":\"V-126\",\n\t\t\"rentPerDay\":2500,\n\t\t\"seatingCapacity\":5,\n\t\t\"model\":\"Fzire\"\n\t}\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/book.service/getBookingByVehicle/V-126",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"book.service",
+						"getBookingByVehicle",
+						"V-126"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/book.service/addNewCar",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"bookingId\":113,\n\t\"issueDate\":\"09-05-2020\",\n\t\"returnDate\":\"10-05-2020\",\n\t\"customer\":{\n\t\t\"id\":3,\n\t\t\"name\":\"Thakur\",\n\t\t\"mobileNo\":9189654321\n\t},\n\t\"vehicle\":{\n\t\t\"vehicleNumber\":\"V-126\",\n\t\t\"rentPerDay\":2500,\n\t\t\"seatingCapacity\":5,\n\t\t\"model\":\"Fzire\"\n\t}\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/book.service/ReturnCar",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"book.service",
+						"ReturnCar"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
